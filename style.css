@@ -214,12 +214,12 @@ legend {
   }
   
   legend.input{
-    background-image: linear-gradient(to right, rgb(68, 73, 75) , rgb(13, 13, 14));
+    background-color: #076bad;
       /* border: 2px solid darkblue; */
   }
   
   legend.output{
-    background-image: linear-gradient(to right, rgb(68, 73, 75) , rgb(13, 13, 14));
+    background-color: #076bad;
   }
   fieldset {
     font-family: Arial, Helvetica, sans-serif;
