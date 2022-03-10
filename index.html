@@ -56,7 +56,49 @@
         
     </div>
 
-    <div class="input" id="scroll3">
+    <div class = "simulator" id="scroll3">
+        <div class="input" >
+            <form action="">
+              <fieldset class="input">
+                <legend class="input">Page Replacement Algorithm</legend>
+                <p>
+                  Algorithm:
+                  <br />
+                  <br />
+                  <select name="algorithm" id="select-algorithm">
+                    <option value="">--Select an Algorithm--</option>
+                    <option value="fifo">First in First out(FIFO)</option>
+                    <option value="lifo">Last in First out(LIFO)</option>
+                    <option value="OPR">Optimal Page Replacement(OPR)</option>
+                    <option value="LRU">Least Recently Used(LRU)</option>
+                  </select>
+                  <br />
+                  <br />
+                  Number of frames:
+                  <input type="number" name="number of pages" id="pages" />
+                  <br />
+                  <br />
+                  Order of Pages:
+                  <input type="search" name="order" id="pages" />
+                  <br /><br /><br /><br /><br /><br /><br /><br />
+                  <input type="reset" value="Reset" />
+                  <input type="submit" value="Submit" />
+                </p>
+              </fieldset>
+            </form>
+          </div>
+          <div class="output">
+              <form action="">
+                  <fieldset class="output">
+                      <legend class="output">Output</legend>
+                      <p>Output is generated here...</p>
+                      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                  </fieldset>
+              </form>
+          </div>
+        </div>
+    </div>
+    <!-- <div class="input" id="scroll3">
         <form action="">
           <fieldset class="input">
             <legend class="input">Page Replacement Algorithm</legend>
@@ -95,7 +137,7 @@
               </fieldset>
           </form>
       </div>
-    </div>
+    </div> -->
 
     <div class="aboutUs" id="scroll2">
         <h3>About Us</h3>
