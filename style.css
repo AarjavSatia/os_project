@@ -295,6 +295,49 @@ legend {
   .simulator{
       margin-left: 5%;
   }
+  /* body{
+    background-color: #181818;
+}
+h1, h2{
+    text-align: center;
+    color: aliceblue;
+}
+
+div{
+    margin-left: 4%;
+    padding: 2px;
+    color: white;
+    font-size: large;
+}
+
+input[type="number"]:hover,
+input[type="search"]:hover,
+button:hover{
+    box-shadow: 0px 3px 12px -3px lightgray;
+}
+
+input[type="number"],
+input[type="search"]{
+    outline: none;
+    background-color: aliceblue;
+}
+
+input[type="number"]{
+    margin-left: 5px;
+    width: 150px;
+}
+
+input[type="search"]{
+    margin-left: 30px;
+    width: 225px;
+}
+
+table,tr,th,td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 2px;
+} */
   
 
 
